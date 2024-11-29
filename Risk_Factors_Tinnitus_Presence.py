@@ -28,7 +28,7 @@ from sklearn import cross_decomposition , feature_selection , linear_model # imp
 
 warnings.filterwarnings('ignore')
 
-UKB = pd.read_csv('/Users/lise/ownCloud/Postdoc_acouphènes/Manips/UKBiobank/Data/2024_11_05_UKB_tinnitus.csv')
+UKB = pd.read_csv('/Users/lise/UKBiobank/Data/2024_11_05_UKB_tinnitus.csv')
 
 #%% PREPARE THE DATASET TO RUN THE MODEL
 
