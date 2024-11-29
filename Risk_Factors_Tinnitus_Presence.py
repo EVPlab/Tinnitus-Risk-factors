@@ -26,9 +26,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.metrics import roc_curve, auc
 from sklearn import cross_decomposition , feature_selection , linear_model # impute, , , metrics
 
-warnings.filterwarnings('ignore')
-
-UKB = pd.read_csv('/Users/lise/UKBiobank/Data/2024_11_05_UKB_tinnitus.csv')
+UKB = pd.read_csv('UKB_Biobank.csv')
 
 #%% PREPARE THE DATASET TO RUN THE MODEL
 
